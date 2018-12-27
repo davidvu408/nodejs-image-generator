@@ -6,12 +6,14 @@
 By default, the image delivered to (name of project).com with no URL params will be the following image:
 
 
+### Width & Height
 Clients can supply a width and height for the image delivered. By default the units are in px.
 
 ```
 (nameofproject).com?width=150&height=300
 ```
 
+### Background Color
 Clients can specify a background color by giving a hex code or one of the possible names of colors (see Table 1). Be default the background will be grey (hex code).
 
 | Name of Color | Hex Code Equivalent | Color  |
@@ -28,6 +30,7 @@ Clients can specify a background color by giving a hex code or one of the possib
 (nameofproject).com?width=150&height=300&color=#000000
 ```
 
+### Custom Text
 By default, the text displayed will be the dimensions of the image. The text can be overriden by specifying in the URL params:
 
 ```
